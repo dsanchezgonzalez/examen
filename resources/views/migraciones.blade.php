@@ -10,5 +10,5 @@
 
 @section('main')
     <br>
-    <p>Se ha realizado correctamente</p>
+    <p>Se ha realizado correctamente.</p>
 @endsection
