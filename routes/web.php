@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller2;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () { return view('home'); });
+
 Route::get('/migraciones', function () { return view('migraciones'); });
+
 Route::get('/seeders', function () { return view('seeders'); });
+
 Route::get('/mail', function () { return view('mail'); });
+
+Route::post('/formForm', [Controller2::class, 'store']);
