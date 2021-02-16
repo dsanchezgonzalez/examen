@@ -10,5 +10,5 @@
 
 @section('main')
     <p>Bienvenido a esta gran página</p>
-    <img src="/img/img.jpg" alt="mountain" style="width: 1000px; height: 1000px;">
+    <img src="/img/img2.jpg" alt="mountain" style="width: 1000px; height: 1000px;">
 @endsection
