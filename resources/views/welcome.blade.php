@@ -1,9 +1,13 @@
 @extends('layouts.plantilla')
 
 @section('header')
-    
+    Bienvenido
 @endsection
 
-@section('footer')
+@section('home')
+    active
+@endsection
+
+@section('main')
     
 @endsection
